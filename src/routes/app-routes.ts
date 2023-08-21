@@ -20,7 +20,7 @@ export const APP_ROUTES = {
       path: '/meals'
     },
     recipeBox: {
-      path: '/recipeBox'
+      path: '/recipe-box'
     },
     map: {
       path: '/map'

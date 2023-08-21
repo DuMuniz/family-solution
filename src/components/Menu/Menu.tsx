@@ -5,20 +5,21 @@ import { PiForkKnifeFill } from 'react-icons/pi'
 import { GiCookingPot } from 'react-icons/gi'
 import { MdPhotoLibrary, MdPermContactCalendar } from 'react-icons/md'
 import { AiFillSchedule } from 'react-icons/ai'
+import Link from "next/link";
 
 
 const menuList = [
-  { name: 'Atividade' },
-  { name: 'Calendário' },
-  { name: 'Orçamento' },
-  { name: 'Cronograma' },
-  { name: 'Listas' },
-  { name: 'Refeições' },
-  { name: 'Caixa de receitas' },
-  { name: 'Mapa' },
-  { name: 'Mensagens' },
-  { name: 'Galeria' },
-  { name: 'Contatos' },
+  { name: 'Atividade', path: '/home' },
+  { name: 'Calendário', path: '/calendar' },
+  { name: 'Orçamento', path: '/budget' },
+  { name: 'Cronograma', path: '/timeline' },
+  { name: 'Listas', path: '/lists' },
+  { name: 'Refeições', path: '/meals' },
+  { name: 'Caixa de receitas', path: '/recipe-box' },
+  { name: 'Mapa', path: '/map' },
+  { name: 'Mensagens', path: '/messages' },
+  { name: 'Galeria', path: '/gallery' },
+  { name: 'Contatos', path: '/contacts' },
 ]
 
 function getIcon(name: string) {
@@ -43,10 +44,10 @@ export function Menu() {
   return (
     <section className="w-1/6 h-screen bg-slate-500 flex flex-col gap-4 overflow-auto">
       {menuList.map((menu, index) => (
-        <div key={index} className="flex items-center gap-2 px-4 mt-2">
+        <Link key={index} href={menu.path} className="flex items-center gap-2 px-4 mt-2">
           {getIcon(menu.name)}
           <span className="text-white font-semibold cursor-pointer">{menu.name}</span>
-        </div>
+        </Link>
       ))}
     </section>
   )
