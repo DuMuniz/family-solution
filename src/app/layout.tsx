@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <title>Family Solution</title>
-      <body className={`${inter.className}`}>
+      <body className={`${inter.className} overflow-hidden`}>
         <TopBar />
         <div className='flex'>
           <Menu />
