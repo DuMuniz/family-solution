@@ -7,9 +7,9 @@ export function TopBar() {
         <div className='ml-8 bg-blue-700 w-10 h-10 rounded-full flex items-center justify-center cursor-pointer'>
           <GiHamburgerMenu style={{width: '24px', height: '24px', color: 'white'}} />
         </div>
-        <h2 className='text-white font-semibold'>Family Solution</h2>
+        <h2 className='text-white font-semibold'>Family App</h2>
       </div>
-      <h3 className='m-auto text-white font-semibold text-xl'>Familia Chiquetto Muniz</h3>
+      <h3 className='m-auto text-white font-semibold text-xl'>Familia Muniz</h3>
     </div>
   )
 }

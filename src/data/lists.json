@@ -1,0 +1,38 @@
+[
+  {
+    "compras": [
+      {
+        "label": "Abacate",
+        "value": "Abacate"
+      },
+      {
+        "label": "Limão",
+        "value": "Limão"
+      },
+      {
+        "label": "Sabonete",
+        "value": "Sabonete"
+      },
+      {
+        "label": "Leite",
+        "value": "Leite"
+      }
+    ]
+  },
+  {
+    "tarefas": [
+      {
+        "label": "Ir no mercado",
+        "value": "Ir no mercado"
+      },
+      {
+        "label": "Lavar o carro",
+        "value": "Lavar o carro"
+      },
+      {
+        "label": "Consertar o Chuveiro",
+        "value": "Consertar o Chuveiro"
+      }
+    ]
+  }
+]

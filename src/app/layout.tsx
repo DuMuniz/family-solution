@@ -19,7 +19,7 @@ export default function RootLayout({
 
   return (
     <html lang="pt-BR">
-      <title>Family Solution</title>
+      <title>Family App</title>
       <body className={`${inter.className} overflow-hidden`}>
         <TopBar />
         <div className='flex'>

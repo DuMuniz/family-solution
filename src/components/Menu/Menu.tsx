@@ -42,7 +42,7 @@ function getIcon(name: string) {
 
 export function Menu() {
   return (
-    <section className="w-1/6 h-screen bg-slate-500 flex flex-col gap-4 overflow-auto">
+    <section className="w-[16vw] h-screen bg-slate-500 flex flex-col gap-4 overflow-auto">
       {menuList.map((menu, index) => (
         <Link key={index} href={menu.path} className="flex items-center gap-2 px-4 mt-2">
           {getIcon(menu.name)}
