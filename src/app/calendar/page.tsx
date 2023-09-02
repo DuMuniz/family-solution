@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import listPlugin from '@fullcalendar/list';
-import { CalendarButton } from '@/components/Buttons';
+import { CalendarButton } from '@/components';
 import { BsArrowLeft, BsArrowRight, BsCalendar3, BsCalendarDay, BsCalendarWeek } from 'react-icons/bs';
 
 

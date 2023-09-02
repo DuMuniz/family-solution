@@ -3,8 +3,7 @@ import { PublicRoutes } from '@/routes/public-routes';
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { usePathname } from 'next/navigation'
-import { Menu } from '@/components/Menu';
-import { TopBar } from '@/components/TopBar';
+import { Menu, TopBar } from '@/components';
 
 const inter = Inter({ subsets: ['latin'] });
 
